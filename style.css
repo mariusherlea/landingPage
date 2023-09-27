@@ -490,7 +490,7 @@ div.inline {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
   .menu-icon-resp {
     display: flex;
   }
@@ -503,7 +503,7 @@ div.inline {
     right: 0;
     flex-direction: column;
     background-color: white;
-    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.25);
+
     padding: 20px 10px;
     border-radius: 4px;
   }
@@ -517,6 +517,7 @@ div.inline {
   .nav-bar-buttons-container > .actions-buttons-wrapper {
     padding: 10px 0;
     flex-direction: column;
+    margin-bottom: 85px;
   }
 
   .nav-bar-buttons-container > .actions-buttons-wrapper > .button {
