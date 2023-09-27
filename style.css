@@ -475,21 +475,6 @@ div.inline {
   display: block;
 }
 
-@media screen and (max-width: 850px) {
-  .section-row-4-cols {
-    grid-template-areas: "grid-col-1 grid-col-2" "grid-col-3 grid-col-4";
-    gap: 30px;
-  }
-
-  .section-row-4-cols div {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
 @media screen and (max-width: 950px) {
   .menu-icon-resp {
     display: flex;
@@ -549,7 +534,22 @@ div.inline {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
+  .section-row-4-cols {
+    grid-template-areas: "grid-col-1 grid-col-2" "grid-col-3 grid-col-4";
+    gap: 30px;
+  }
+
+  .section-row-4-cols div {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 750px) {
   #join {
     flex-direction: column;
   }
