@@ -190,7 +190,7 @@ body > section:last-child {
 }
 
 .section-bg {
-  background-image: url("./img/section2-bg.png");
+  background-image: url("./img/shadow-bg.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -198,7 +198,7 @@ body > section:last-child {
 }
 
 .section-bg-reverse {
-  background-image: url("./img/section6-bg.png");
+  background-image: url("./img/shadow-bg-reversed.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
