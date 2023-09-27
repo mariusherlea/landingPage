@@ -18,7 +18,9 @@ body > section .nav {
   display: flex;
   flex-direction: row;
 }
-
+.d-flex {
+  display: flex;
+}
 .row-centered {
   align-items: center;
 }
@@ -28,7 +30,7 @@ body > section .nav {
 }
 
 .content-container {
-  max-width: 70em;
+  max-width: 1200px;
   justify-content: center;
   padding: 0 20px;
 }
@@ -139,6 +141,8 @@ body > section:last-child {
   color: #22343d;
   font-size: 2.2em;
   font-weight: 700;
+  margin-top: 4px;
+  margin-bottom: 23px;
 }
 
 .content-left-col,
@@ -276,7 +280,7 @@ body > section:last-child {
   font-size: 1em;
   line-height: 26px;
   text-align: center;
-  margin: 30px 0 8px 0;
+  margin: 30px 0 4px 0;
 }
 .check-box-icon {
   height: 35px;
@@ -298,29 +302,71 @@ body > section:last-child {
   overflow: visible;
 }
 
-.chat-box-left {
-  background-image: url(./img/chat-box-left.png);
-  margin-left: 16px;
+.chat-section .chat-container {
+  justify-content: space-between;
 }
-.chat-box-right {
-  background-image: url(./img/chat-box-right.png);
+
+.chat-section .chat-container .chat-column {
+  width: calc(50% - 80px);
+}
+
+.chat-section .chat-column .message {
+  display: flex;
+  align-items: center;
+}
+
+.chat-section .chat-column .message .image:first-child,
+.chat-section .chat-column .message span:first-child {
   margin-right: 16px;
 }
 
-.chat-box-wrapper-right {
-  flex-direction: row-reverse;
+.chat-section .chat-column .message .image {
+  width: 98px;
 }
 
-.chat-box-container {
+.chat-section .chat-column .message .image img {
   width: 100%;
-}
-.chat-box > p {
-  padding: 10px;
 }
 
-.section-2-image {
-  width: 100%;
-  height: auto;
+.chat-section .chat-column .message span {
+  border-radius: 26.5px;
+  background: #fff;
+  box-shadow: 0px 2px 15px 0px rgba(23, 58, 86, 0.1);
+  padding: 14px 24px;
+  position: relative;
+}
+
+.chat-section .chat-column .message span::before {
+  position: absolute;
+  content: "";
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: #fff;
+  left: 32px;
+  bottom: -8px;
+}
+
+.chat-section .chat-column .message span::after {
+  position: absolute;
+  content: "";
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #fff;
+  left: 21px;
+  bottom: -16px;
+  box-shadow: 0px 2px 15px 0px rgba(23, 58, 86, 0.1);
+}
+
+.chat-section .chat-column .message.span-first span::before {
+  left: unset;
+  right: 55px;
+}
+
+.chat-section .chat-column .message.span-first span::after {
+  left: unset;
+  right: 36px;
 }
 
 .no-bg {
@@ -538,8 +584,8 @@ div.inline {
 
   .section-row-4-cols h5 {
     margin-top: 24px;
+  }
 }
-
 @media screen and (max-width: 850px) {
   .section-row-4-cols {
     grid-template-areas: "grid-col-1 grid-col-2" "grid-col-3 grid-col-4";
@@ -572,7 +618,6 @@ div.inline {
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    
   }
   .section-2-col:nth-child(5) {
     flex-direction: column;
