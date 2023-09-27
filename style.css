@@ -249,6 +249,7 @@ body > section:last-child {
   font-size: 1.38em;
   font-weight: 600;
   line-height: 33px;
+  margin-top: 30px;
 }
 
 .section-row-4-cols p {
@@ -267,7 +268,7 @@ body > section:last-child {
 }
 
 .section-2-col-item {
-  padding: 10px;
+  padding: 42px;
 }
 
 .section-2-col-item > h6 {
@@ -534,6 +535,9 @@ div.inline {
     justify-content: center;
     align-items: center;
   }
+
+  .section-row-4-cols h5 {
+    margin-top: 24px;
 }
 
 @media screen and (max-width: 850px) {
@@ -568,6 +572,7 @@ div.inline {
     justify-content: flex-start;
     align-items: center;
     text-align: center;
+    
   }
   .section-2-col:nth-child(5) {
     flex-direction: column;
