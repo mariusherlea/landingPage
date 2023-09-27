@@ -195,6 +195,7 @@ body > section:last-child {
   background-repeat: no-repeat;
   background-position: bottom;
   overflow: visible;
+  padding-bottom: 90px;
 }
 
 .section-bg-reverse {
@@ -203,6 +204,7 @@ body > section:last-child {
   background-repeat: no-repeat;
   background-position: bottom;
   overflow: visible;
+  padding-top: 52px;
 }
 
 .section-3-row > h2 {
