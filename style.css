@@ -78,6 +78,7 @@ body > section:last-child {
 }
 
 .button-primary {
+  text-align: center;
   border-radius: 4px;
   background: #02897a;
   width: 102px;
@@ -88,7 +89,8 @@ body > section:last-child {
   line-height: normal;
   border: none;
   cursor: pointer;
-  padding: 0 20px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .button-outline {
@@ -149,6 +151,8 @@ body > section:last-child {
   font-style: normal;
   font-weight: 700;
   line-height: 60px;
+  margin-bottom: 0px;
+  padding-bottom: 18px;
 }
 
 .content-left-col,
@@ -161,10 +165,16 @@ body > section:last-child {
 }
 
 .subtitle {
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 45px;
+
   color: #22343d;
+
   font-size: 18px;
+  font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 155.556% */
+  line-height: 28px;
 }
 
 .first-section-right-col {
@@ -174,7 +184,7 @@ body > section:last-child {
 }
 
 .button-link-margin {
-  margin-left: 22px;
+  margin-left: 30px;
 }
 
 #menu-icon {
@@ -278,7 +288,12 @@ body > section:last-child {
 }
 
 .section-2-col-item {
-  padding: 42px;
+  padding: 33px;
+}
+
+.section-2-col .button-primary {
+  width: 175px;
+  height: 53px;
 }
 
 .section-2-col-item > h6 {
