@@ -49,14 +49,17 @@ body > section:last-child {
 }
 
 #app-logo {
-  height: 2.5em;
-  margin-right: 1em;
+  height: 36px;
+  width: 40px;
+  padding-right: 16px;
 }
 
 #app-title {
-  font-size: 1.8em;
-  line-height: 1.2em;
-  color: rgba(23, 58, 86, 1);
+  color: #173a56;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
 }
 
 .nav-bar-wrapper {
@@ -66,23 +69,25 @@ body > section:last-child {
 
 .nav-links-container > a {
   color: #22343d;
-  font-size: 1em;
-  font-weight: 600;
-  line-height: 1.7em;
-  margin: 0 0.6em;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0 12px;
 }
 
 .button-primary {
   border-radius: 4px;
   background: #02897a;
-  height: 2.6em;
+  height: 36px;
   color: #fff;
-  font-size: 1em;
+  font-size: 16px;
   font-weight: 600;
   line-height: normal;
   border: none;
   cursor: pointer;
-  padding: 0 1.5em;
+  padding: 0 20px;
 }
 
 .button-outline {
@@ -94,7 +99,7 @@ body > section:last-child {
 
 .button-link {
   color: #02897a;
-  font-size: 1em;
+  font-size: 16px;
   font-weight: 600;
   line-height: normal;
   text-decoration-line: underline;
@@ -107,17 +112,17 @@ body > section:last-child {
 }
 
 #play-icon {
-  height: 1em;
-  margin-right: 0.5em;
+  height: 14px;
+  margin-right: 10px;
 }
 
 .buttons-nav {
-  margin: 0.8em;
+  margin: 14px;
 }
 
 .switch-theme-button {
-  height: 2em;
-  width: 2em;
+  height: 24px;
+  width: 24px;
   border-radius: 50%;
   background-color: #f3f3f3;
   border: none;
@@ -128,8 +133,8 @@ body > section:last-child {
 }
 
 #switch-theme-item {
-  height: 1.2em;
-  width: 1.2em;
+  height: 18px;
+  width: 18px;
 }
 
 .nav-bar-buttons-container {
@@ -139,7 +144,7 @@ body > section:last-child {
 
 .main-header {
   color: #22343d;
-  font-size: 2.2em;
+  font-size: 34px;
   font-weight: 700;
   margin-top: 4px;
   margin-bottom: 23px;
@@ -156,9 +161,9 @@ body > section:last-child {
 
 .subtitle {
   color: #22343d;
-  font-size: 1em;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 1.5em; /* 155.556% */
+  line-height: 20px; /* 155.556% */
 }
 
 .first-section-right-col {
@@ -168,7 +173,7 @@ body > section:last-child {
 }
 
 .button-link-margin {
-  margin-left: 1.8em;
+  margin-left: 22px;
 }
 
 #menu-icon {
@@ -208,19 +213,19 @@ body > section:last-child {
   background-repeat: no-repeat;
   background-position: bottom;
   overflow: visible;
-  padding-top: 52px;
+  padding-top: 120px;
 }
 
 .section-3-row > h2 {
   font-weight: 700px;
-  font-size: 2em;
+  font-size: 32px;
   line-height: 48px;
   text-align: center;
   margin: 20px;
 }
 
 .section-3-row > p {
-  font-size: 1em;
+  font-size: 16px;
   font-weight: 500;
   line-height: 26px;
   text-align: center;
@@ -250,14 +255,14 @@ body > section:last-child {
 }
 
 .section-row-4-cols h5 {
-  font-size: 1.38em;
+  font-size: 20px;
   font-weight: 600;
   line-height: 33px;
   margin-top: 30px;
 }
 
 .section-row-4-cols p {
-  font-size: 1em;
+  font-size: 16px;
   line-height: 26px;
 }
 
@@ -277,7 +282,7 @@ body > section:last-child {
 
 .section-2-col-item > h6 {
   font-weight: 600;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 26px;
   text-align: center;
   margin: 30px 0 4px 0;
@@ -402,7 +407,7 @@ body > section:last-child {
 }
 
 .price-table > .section-3-row > .section-row-4-cols {
-  gap: 2rem;
+  gap: 32px;
 }
 
 .price-table > .section-3-row > .section-row-4-cols div {
@@ -415,7 +420,7 @@ body > section:last-child {
 }
 
 .price-table > .section-3-row > .section-row-4-cols div span {
-  font-size: 3rem;
+  font-size: 42px;
 }
 
 .price-table > .section-3-row > .section-row-4-cols div:nth-child(2) {
@@ -470,7 +475,7 @@ div.inline {
 #join {
   background-color: #02897a;
   height: auto;
-  border-radius: 4rem;
+  border-radius: 64px;
   width: 70%;
 }
 
@@ -486,13 +491,13 @@ div.inline {
   color: #02897a;
   border-radius: 8px;
   background: #fff;
-  height: 2.6em;
-  font-size: 1em;
+  height: 34px;
+  font-size: 16px;
   font-weight: 600;
   line-height: normal;
   border: none;
   cursor: pointer;
-  padding: 0 1.5em;
+  padding: 0 20px;
 }
 
 #footer .content-container .section-row-4-cols {
