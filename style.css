@@ -80,7 +80,8 @@ body > section:last-child {
 .button-primary {
   border-radius: 4px;
   background: #02897a;
-  height: 36px;
+  width: 102px;
+  height: 43px;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -92,8 +93,8 @@ body > section:last-child {
 
 .button-outline {
   background-color: white;
-  color: rgba(188, 208, 229, 1);
-  border-radius: 4px;
+  color: #173a56;
+
   border: 1px solid #bcd0e5;
 }
 
@@ -144,10 +145,10 @@ body > section:last-child {
 
 .main-header {
   color: #22343d;
-  font-size: 34px;
+  font-size: 40px;
+  font-style: normal;
   font-weight: 700;
-  margin-top: 4px;
-  margin-bottom: 23px;
+  line-height: 60px;
 }
 
 .content-left-col,
