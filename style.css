@@ -601,9 +601,12 @@ div.inline {
   }
 
   .chat-box-container > .content-left-col {
-    width: 100%;
     justify-content: center;
     align-items: center;
+  }
+
+  .chat-section .chat-container {
+    flex-direction: column;
   }
 
   .section-row-4-cols h5 {
@@ -612,10 +615,6 @@ div.inline {
 }
 
 @media screen and (max-width: 750px) {
-  #quick > .d-flex {
-    flex-direction: column;
-  }
-
   #join {
     flex-direction: column;
   }
