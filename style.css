@@ -464,6 +464,11 @@ div.inline {
   float: left;
 }
 
+#strategies {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
 #strategies .section-3-row {
   flex-direction: row;
   justify-content: space-around;
