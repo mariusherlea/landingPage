@@ -354,7 +354,7 @@ body > section:last-child {
   height: 100px;
   width: 100px;
 }
-.chat-box {
+#price-table > .chat-box {
   background-size: auto 60%;
   background-repeat: no-repeat;
   background-position: center;
@@ -481,10 +481,6 @@ div.inline {
   float: left;
 }
 
-#quick .center {
-  text-align: center;
-}
-
 #strategies {
   margin-top: 150px;
   margin-bottom: 150px;
@@ -534,6 +530,45 @@ div.inline {
   border: none;
   cursor: pointer;
   padding: 0 20px;
+}
+
+.center-title {
+  text-align: center;
+}
+#price-table .section-3-row {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+#price-table .section-3-row > div {
+  width: 322.649px;
+  height: 456px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+#price-table .section-3-row > div > p:first-child {
+  color: #22343d;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 166.667% */
+}
+
+#price-table .section-3-row > div > p:nth-child(2) {
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 250% */
+}
+
+#price-table .section-3-row > div > p:nth-child(3) {
+  display: flex;
+  flex-direction: column;
 }
 
 #footer .content-container .section-row-4-cols {
@@ -634,6 +669,11 @@ div.inline {
 @media screen and (max-width: 750px) {
   #join {
     flex-direction: column;
+  }
+
+  #section-1 {
+    margin-top: 29px;
+    margin-bottom: 100px;
   }
 
   .section-2-col {
