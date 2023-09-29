@@ -95,7 +95,6 @@ body > section:last-child {
 .button-outline {
   background-color: white;
   color: #173a56;
-
   border: 1px solid #bcd0e5;
 }
 
@@ -152,6 +151,18 @@ body > section:last-child {
   line-height: 60px;
   margin-bottom: 0px;
   padding-bottom: 18px;
+}
+
+#section-1 {
+  margin-top: 25px;
+  margin-bottom: 114px;
+}
+#section-1 .main-header {
+  padding-bottom: 18px;
+}
+
+#section-1 .content-left-col {
+  margin-right: 5%;
 }
 
 .content-left-col,
@@ -242,6 +253,24 @@ body > section:last-child {
   width: 60%;
 }
 
+.section-row-3-cols {
+  display: grid;
+  grid-template-areas: "grid-col-1 grid-col-2 grid-col-3";
+  gap: 10px;
+}
+
+.section-row-3-cols-item-1 {
+  grid-area: grid-col-1;
+}
+
+.section-row-3-cols-item-2 {
+  grid-area: grid-col-2;
+}
+
+.section-row-3-cols-item-3 {
+  grid-area: grid-col-3;
+}
+
 .section-row-4-cols {
   display: grid;
   grid-template-areas: "grid-col-1 grid-col-2 grid-col-3 grid-col-4";
@@ -284,10 +313,6 @@ body > section:last-child {
 .section-row-4-cols div {
   margin-top: 60px;
   margin-bottom: 30px;
-}
-
-.section-2-col-item {
-  padding: 33px;
 }
 
 .section-2-col .button-primary {
@@ -413,42 +438,6 @@ body > section:last-child {
   border-radius: 10px;
 }
 
-.price-table {
-  margin-top: 5px;
-}
-
-.price-table > .content-container > .content-left-col {
-  align-items: center;
-}
-
-.price-table > .section-3-row > .section-row-4-cols {
-  gap: 32px;
-}
-
-.price-table > .section-3-row > .section-row-4-cols div {
-  height: 456px;
-  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
-  text-align: center;
-  border-radius: 8px;
-  margin: 20px 40px;
-  padding: 30px 60px;
-}
-
-.price-table > .section-3-row > .section-row-4-cols div span {
-  font-size: 42px;
-}
-
-.price-table > .section-3-row > .section-row-4-cols div:nth-child(2) {
-  color: white;
-  background-color: #02897a;
-}
-
-.price-table > .section-3-row > .section-row-4-cols div:nth-child(2) > button {
-  border-radius: 8px;
-  background: #fff;
-  color: #02897a;
-}
-
 .flex {
   display: flex;
   flex-direction: row;
@@ -473,6 +462,12 @@ body > section:last-child {
 
 div.inline {
   float: left;
+}
+
+#strategies .section-3-row {
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 #join > .content-container img {
@@ -607,11 +602,6 @@ div.inline {
   }
 }
 @media screen and (max-width: 850px) {
-  .section-row-4-cols {
-    grid-template-areas: "grid-col-1 grid-col-2" "grid-col-3 grid-col-4";
-    gap: 30px;
-  }
-
   .section-row-4-cols div {
     display: flex;
     flex-direction: column;
