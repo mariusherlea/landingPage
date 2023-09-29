@@ -161,8 +161,22 @@ body > section:last-child {
   padding-bottom: 18px;
 }
 
-#section-1 .content-left-col {
-  margin-right: 5%;
+.content-left-col {
+  margin-right: 3%;
+}
+
+.content-right-col {
+  margin-left: 3%;
+}
+
+#customer-support > .content-left-col {
+  margin-right: 0px;
+  margin-left: 3%;
+}
+
+#customer-support > .content-right-col {
+  margin-left: 0px;
+  margin-right: 3%;
 }
 
 .content-left-col,
@@ -178,9 +192,7 @@ body > section:last-child {
   margin-top: 0px;
   padding-top: 0px;
   margin-bottom: 45px;
-
   color: #22343d;
-
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -226,6 +238,11 @@ body > section:last-child {
   background-position: bottom;
   overflow: visible;
   padding-bottom: 90px;
+}
+
+#signUpNow {
+  width: 175px;
+  height: 53px;
 }
 
 .section-bg-reverse {
