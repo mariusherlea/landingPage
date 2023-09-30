@@ -652,6 +652,19 @@ div.inline {
   color: #02897a;
 }
 
+body > section.client > div > div > div {
+  width: 327px;
+  height: 236px;
+}
+
+body > section.client > div > div > div > div > div > h5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+body > section.client > div > div > div > div > div > p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 #footer .content-container .section-row-4-cols {
   gap: 40px;
 }
