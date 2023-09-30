@@ -240,7 +240,7 @@ body > section:last-child {
   padding-bottom: 90px;
 }
 
-#signUpNow {
+.signUpNow {
   width: 175px;
   height: 53px;
 }
@@ -353,15 +353,6 @@ body > section:last-child {
 .avatar-icon {
   height: 100px;
   width: 100px;
-}
-#price-table > .chat-box {
-  background-size: auto 60%;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: auto;
-  text-align: center;
-  padding: 15px;
-  overflow: visible;
 }
 
 .chat-section .chat-container {
@@ -534,6 +525,28 @@ div.inline {
 
 .center-title {
   text-align: center;
+}
+
+.orderNow {
+  display: inline-flex;
+  padding: 11px 19px 11px 18px;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 42px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.price-categories {
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.price-description {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 #price-table .section-3-row {
   flex-direction: row;
@@ -731,6 +744,9 @@ div.inline {
 
   .section-row-4-cols h5 {
     margin-top: 24px;
+  }
+  #last-price {
+    margin-top: 50px;
   }
 }
 
