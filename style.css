@@ -565,6 +565,10 @@ div.inline {
   font-weight: 400;
   line-height: 40px; /* 250% */
 }
+#price-table .section-3-row > div:nth-child(2) {
+  background: #02897a;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+}
 
 .big-number {
   grid-area: big-number;
@@ -614,6 +618,25 @@ div.inline {
   font-weight: 400;
   line-height: 19px; /* 118.75% */
   letter-spacing: 0.1px;
+}
+
+#price-table .section-3-row > div:nth-child(2) > p {
+  color: #fff;
+}
+
+#price-table .section-3-row > div:nth-child(2) > p > .big-number {
+  color: white;
+}
+#price-table .section-3-row > div:nth-child(2) > p > .dollar {
+  color: white;
+}
+#price-table .section-3-row > div:nth-child(2) > p > .per-month {
+  color: white;
+}
+
+#price-table .section-3-row > div:nth-child(2) > .button-primary {
+  background: white;
+  color: #02897a;
 }
 
 #footer .content-container .section-row-4-cols {
