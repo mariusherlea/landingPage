@@ -803,6 +803,21 @@ body > section.client > div > div > div > div > div > p {
   body > section.client > div > div {
     flex-wrap: wrap;
   }
+  #join {
+    width: 90%;
+  }
+  #join > div.content-left-col.section-2-col-item {
+    margin: 0px;
+  }
+  #join > div.content-left-col.section-2-col-item > p {
+    margin-top: 20px;
+  }
+  #join > div.content-left-col.section-2-col-item > p.subtitle {
+    width: auto;
+  }
+  #join > div.content-left-col.section-2-col-item > button {
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -851,5 +866,24 @@ body > section.client > div > div > div > div > div > p {
 
   .client .flex {
     flex-direction: column;
+  }
+
+  #join {
+    width: 371px;
+    height: 668px;
+  }
+
+  #join > div.content-left-col.section-2-col-item {
+    margin: 0px;
+  }
+  #join > div.content-left-col.section-2-col-item > p {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  #join > div.content-left-col.section-2-col-item > p.subtitle {
+    width: 328px;
+  }
+  #join > div.content-left-col.section-2-col-item > button {
+    margin-bottom: 0px;
   }
 }
