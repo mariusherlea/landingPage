@@ -714,7 +714,11 @@ body > section.client > div > div > div > div > div > p {
   #app-logo {
   float: left;
 }
-
+#app-title {
+  margin-top: 0px;
+  padding-top: 5px;
+  margin-bottom: 30px;
+}
 #footer .content-container .section-row-4-cols .section-row-4-cols-item-1 h5 {
   margin-top: 0px;
 }
@@ -723,8 +727,9 @@ body > section.client > div > div > div > div > div > p {
   width: 15%;
 }
 
-#footer .content-container .section-row-4-cols-item-1 {
-  margin-top: 100px;
+#footer > div > div.section-row-4-cols > div.section-row-4-cols-item-1 > div {
+  margin-left: 20px;
+  margin-top: 25px;
 }
 
 #footer .content-container .section-row-4-cols-item-4 button {
