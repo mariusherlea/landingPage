@@ -437,13 +437,10 @@ body > section:last-child {
   text-align: left;
 }
 
-.strong {
-  font-weight: bold;
-}
-
 .section-2-image {
-  height: 50%;
-  border-radius: 10px;
+  width: 348px;
+  height: 185px;
+  border-radius: 8px 8px 0 0;
 }
 
 .flex {
@@ -482,6 +479,43 @@ div.inline {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+#strategies > div > div {
+  width: 348px;
+  height: 359px;
+  border: 1px solid #dedede;
+  border-radius: 8px;
+}
+#strategies > div > div > p {
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+#strategies > div > div.section-row-3-cols-item-1 > p {
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+#strategies > div > div > p > span {
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+#strategies > div > div > h5 {
+  color: #22343d;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  margin-top: 12px;
+  margin-left: 24px;
 }
 
 #join > .content-container img {
