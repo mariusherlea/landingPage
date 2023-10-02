@@ -800,6 +800,12 @@ body > section.client > div > div > div > div > div > p {
   gap: 16px;
 }
 
+@media screen and (max-width: 1050px) {
+  #strategies > div > div {
+    margin-top: 15px;
+  }
+}
+
 @media screen and (max-width: 950px) {
   .menu-icon-resp {
     display: flex;
@@ -867,7 +873,9 @@ body > section.client > div > div > div > div > div > p {
   #last-price {
     margin-top: 50px;
   }
-
+  #strategies > div > div {
+    margin-top: 15px;
+  }
   body > section.client > div > div {
     flex-wrap: wrap;
   }
