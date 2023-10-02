@@ -251,7 +251,7 @@ body > section:last-child {
   background-repeat: no-repeat;
   background-position: bottom;
   overflow: visible;
-  padding-top: 120px;
+  padding-top: 52px;
 }
 
 .section-3-row > h2 {
@@ -477,7 +477,6 @@ div.inline {
 
 #strategies .section-3-row {
   flex-direction: row;
-  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -492,6 +491,12 @@ div.inline {
   margin-left: 24px;
 }
 
+#strategies > div > div.section-row-3-cols-item-1 {
+  margin-right: 32px;
+}
+#strategies > div > div.section-row-3-cols-item-2 {
+  margin-right: 32px;
+}
 #strategies > div > div.section-row-3-cols-item-1 > p {
   color: #22343d;
   font-size: 16px;
@@ -537,13 +542,14 @@ div.inline {
   width: 968px;
 }
 
-#join p {
+#join h2 {
   color: #fff;
   font-family: Poppins;
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
-  line-height: 151.4%; /* 48.448px */
+  line-height: 151.4%;
+  margin-left: 51px;
 }
 #join .signUpNow {
   color: #02897a;
@@ -703,8 +709,7 @@ body > section.client > div > div > div {
   margin-bottom: 50px;
   margin-right: 30px;
 }
-body > section.client > div > div > div > img {
-}
+
 body > section.client > div > div > div > div > div > h5 {
   margin-left: 10px;
   margin-top: 0px;
@@ -800,9 +805,16 @@ body > section.client > div > div > div > div > div > p {
   gap: 16px;
 }
 
-@media screen and (max-width: 1050px) {
-  #strategies > div > div {
-    margin-top: 15px;
+@media screen and (max-width: 1150px) {
+  #strategies > div {
+    justify-content: center;
+  }
+
+  #strategies > div > div.section-row-3-cols-item-1 {
+    margin-right: 15px;
+  }
+  #strategies > div > div.section-row-3-cols-item-2 {
+    margin-right: 15px;
   }
 }
 
@@ -851,6 +863,11 @@ body > section.client > div > div > div > div > div > p {
     height: 0;
   }
 
+  .section-row-4-cols div {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
   .chat-box-container {
     display: flex;
     align-items: center;
@@ -865,6 +882,21 @@ body > section.client > div > div > div > div > div > p {
 
   .chat-section .chat-container {
     flex-direction: column;
+  }
+
+  body
+    > section.section-bg-reverse.chat-section.content-container
+    > div.chat-container.d-flex
+    > div
+    > div {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  body
+    > section.section-bg-reverse.chat-section.content-container
+    > div.chat-container.d-flex {
+    align-items: center;
   }
 
   .section-row-4-cols h5 {
@@ -888,7 +920,7 @@ body > section.client > div > div > div > div > div > p {
   #join > div.content-left-col.section-2-col-item > p {
     margin-top: 20px;
   }
-  #join > div.content-left-col.section-2-col-item > p.subtitle {
+  #join > div.content-left-col.section-2-col-item > h2.subtitle {
     width: auto;
   }
   #join > div.content-left-col.section-2-col-item > button {
@@ -911,6 +943,12 @@ body > section.client > div > div > div > div > div > p {
     flex-direction: column;
   }
 
+  #join > div.content-left-col.section-2-col-item > button {
+    margin-left: 0px;
+  }
+  #join > div.content-left-col.section-2-col-item > h2 {
+    margin-left: 0px;
+  }
   #section-1 {
     margin-top: 29px;
     margin-bottom: 100px;
@@ -954,6 +992,10 @@ body > section.client > div > div > div > div > div > p {
     flex-direction: column;
   }
 
+  #strategies > div > div {
+    border: 0px;
+  }
+
   #join {
     width: 371px;
     height: 668px;
@@ -966,7 +1008,7 @@ body > section.client > div > div > div > div > div > p {
     margin-left: 0px;
     margin-top: 20px;
   }
-  #join > div.content-left-col.section-2-col-item > p.subtitle {
+  #join > div.content-left-col.section-2-col-item > h2.subtitle {
     width: 328px;
   }
   #join > div.content-left-col.section-2-col-item > button {
