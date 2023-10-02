@@ -958,7 +958,9 @@ body > section.client > div > div > div > div > div > p {
   }
   #join > div.content-left-col.section-2-col-item > h2 {
     margin-left: 0px;
+    margin-top: 40px;
   }
+
   #section-1 {
     margin-top: 29px;
     margin-bottom: 100px;
