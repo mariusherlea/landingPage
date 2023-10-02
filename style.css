@@ -479,7 +479,12 @@ div.inline {
   flex-direction: row;
   flex-wrap: wrap;
 }
-
+#strategies > div {
+  justify-content: center;
+}
+#strategies > div:first-child {
+  margin-left: 42px;
+}
 #strategies > div > div {
   width: 348px;
   height: 359px;
@@ -915,7 +920,7 @@ body > section.client > div > div > div > div > div > p {
     width: 90%;
   }
   #join > div.content-left-col.section-2-col-item {
-    margin: 0px;
+    margin: 20px;
   }
   #join > div.content-left-col.section-2-col-item > p {
     margin-top: 20px;
@@ -935,6 +940,11 @@ body > section.client > div > div > div > div > div > p {
   .section-row-4-cols {
     grid-template-areas: "grid-col-1 grid-col-2" "grid-col-3 grid-col-4";
     gap: 20px;
+  }
+}
+@media screen and (max-width: 914px) {
+  #join > div.content-left-col.section-2-col-item > h2 {
+    margin-bottom: 10px;
   }
 }
 
@@ -1013,5 +1023,9 @@ body > section.client > div > div > div > div > div > p {
   }
   #join > div.content-left-col.section-2-col-item > button {
     margin-bottom: 0px;
+  }
+
+  #footer > div > div.section-row-4-cols-item-1 > div:nth-child(2) {
+    flex-direction: row;
   }
 }
