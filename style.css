@@ -703,21 +703,20 @@ body > section.client > div > div > div > div > div > p {
 #join > div.content-left-col.section-2-col-item > p:nth-child(2) {
   margin-top: 0px;
 }
+
+#footer > div {
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+}
 #footer .content-container .section-row-4-cols {
   gap: 40px;
 }
 
-#footer
-  .content-container
-  .section-row-4-cols
-  .section-row-4-cols-item-1
-  #app-logo {
-  float: left;
-}
-#app-title {
-  margin-top: 0px;
-  padding-top: 5px;
-  margin-bottom: 30px;
+#footer-prod {
+  color: #173a56;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
 }
 #footer .content-container .section-row-4-cols .section-row-4-cols-item-1 h5 {
   margin-top: 0px;
@@ -735,6 +734,36 @@ body > section.client > div > div > div > div > div > p {
 #footer .content-container .section-row-4-cols-item-4 button {
   margin-top: 20px;
   display: block;
+}
+
+#footer > div > div.section-row-4-cols-item-1 > div {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer > div > div.section-row-4-cols-item-4 > div {
+  flex-direction: column;
+}
+
+#footer > div > div.section-row-4-cols-item-4 > div {
+  margin-top: 34px;
+}
+
+#footer > div > div.section-row-4-cols-item-4 > div > input[type="text"] {
+  height: 40px;
+  width: 325px;
+}
+
+#footer > div > div.section-row-4-cols-item-4 > div > button {
+  width: 131px;
+  height: 39px;
+  margin-top: 21px;
+}
+
+#footer > div > div.section-row-4-cols-item-1 > div:nth-child(2) {
+  gap: 16px;
 }
 
 @media screen and (max-width: 950px) {
@@ -822,6 +851,11 @@ body > section.client > div > div > div > div > div > p {
   }
   #join > div.content-left-col.section-2-col-item > button {
     margin-bottom: 20px;
+  }
+
+  #footer {
+    width: 360px;
+    margin-top: 50px;
   }
 }
 
