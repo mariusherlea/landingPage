@@ -857,6 +857,11 @@ body > section.client > div > div > div > div > div > p {
     width: 360px;
     margin-top: 50px;
   }
+
+  .section-row-4-cols {
+    grid-template-areas: "grid-col-1 grid-col-2" "grid-col-3 grid-col-4";
+    gap: 20px;
+  }
 }
 
 @media screen and (max-width: 750px) {
