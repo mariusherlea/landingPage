@@ -841,6 +841,11 @@ body > section.client {
   gap: 16px;
 }
 
+#madeBy {
+  text-align: center;
+  margin-top: 23px;
+}
+
 @media screen and (max-width: 1150px) {
   #strategies > div {
     justify-content: center;
@@ -1006,7 +1011,11 @@ body > section.client {
 
   #section-1 {
     margin-top: 29px;
-    margin-bottom: 100px;
+    margin-bottom: 116px;
+  }
+
+  body > section.section-bg {
+    margin-bottom: 95px;
   }
 
   .section-2-col {
@@ -1022,6 +1031,11 @@ body > section.client {
     align-items: center;
     text-align: center;
   }
+
+  body > section:nth-child(4) {
+    margin-bottom: 97px;
+  }
+
   .section-2-col:nth-child(5) {
     flex-direction: column;
   }
@@ -1033,6 +1047,10 @@ body > section.client {
 
   .section-row-4-cols div {
     margin: 0;
+  }
+
+  #customer-support {
+    margin-bottom: 100px;
   }
 
   .section-row-4-cols div {
@@ -1047,10 +1065,28 @@ body > section.client {
     flex-direction: column;
   }
 
+  body > section:nth-child(6) {
+    margin-bottom: 80px;
+  }
+
   #strategies > div > div {
     border: 0px;
   }
+  body > section.section-bg-reverse.chat-section.content-container {
+    margin-bottom: 100px;
+  }
 
+  #strategies {
+    margin-bottom: 112px;
+  }
+
+  #price-table {
+    margin-bottom: 100px;
+  }
+
+  body > section.client {
+    margin-bottom: 100px;
+  }
   #join {
     width: 371px;
     height: 668px;
@@ -1069,7 +1105,9 @@ body > section.client {
   #join > div.content-left-col.section-2-col-item > button {
     margin-bottom: 0px;
   }
-
+  #join {
+    margin-bottom: 100px;
+  }
   #footer > div > div.section-row-4-cols-item-1 > div:nth-child(2) {
     flex-direction: row;
   }
