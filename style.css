@@ -230,7 +230,9 @@ body > section:last-child {
   align-items: center;
   margin: auto;
 }
-
+body > section.section-bg {
+  margin-bottom: 169px;
+}
 .section-bg {
   background-image: url("./img/shadow-bg.svg");
   background-size: cover;
@@ -243,6 +245,10 @@ body > section:last-child {
 .signUpNow {
   width: 175px;
   height: 53px;
+}
+
+body > section:nth-child(4) {
+  margin-bottom: 186px;
 }
 
 .section-bg-reverse {
@@ -287,7 +293,9 @@ body > section:last-child {
 .section-row-3-cols-item-3 {
   grid-area: grid-col-3;
 }
-
+#customer-support {
+  margin-bottom: 204px;
+}
 .section-row-4-cols {
   display: grid;
   grid-template-areas: "grid-col-1 grid-col-2 grid-col-3 grid-col-4";
@@ -354,7 +362,9 @@ body > section:last-child {
   height: 100px;
   width: 100px;
 }
-
+body > section:nth-child(6) {
+  margin-bottom: 169px;
+}
 .chat-section .chat-container {
   justify-content: space-between;
 }
@@ -422,6 +432,12 @@ body > section:last-child {
   right: 36px;
 }
 
+body
+  > section.section-bg-reverse.chat-section.content-container
+  > div:nth-child(3) {
+  margin-top: 48px;
+}
+
 .no-bg {
   background-size: cover;
   background-repeat: no-repeat;
@@ -470,9 +486,13 @@ div.inline {
   float: left;
 }
 
+body > section.section-bg-reverse.chat-section.content-container {
+  margin-bottom: 150px;
+}
+
 #strategies {
   margin-top: 150px;
-  margin-bottom: 150px;
+  margin-bottom: 230px;
 }
 
 #strategies .section-3-row {
@@ -526,6 +546,10 @@ div.inline {
   line-height: 40px;
   margin-top: 12px;
   margin-left: 24px;
+}
+
+#price-table {
+  margin-bottom: 150px;
 }
 
 #join > .content-container img {
@@ -738,6 +762,10 @@ body > section.client > div > div > div > div > div > p {
   letter-spacing: 0.2px;
 }
 
+body > section.client {
+  margin-bottom: 157px;
+}
+
 #join > div.content-left-col.section-2-col-item > p {
   margin-left: 51px;
 
@@ -748,6 +776,9 @@ body > section.client > div > div > div > div > div > p {
   margin-top: 0px;
 }
 
+#join {
+  margin-bottom: 150px;
+}
 #footer > div {
   grid-template-columns: 2fr 1fr 1fr 2fr;
 }
@@ -840,7 +871,9 @@ body > section.client > div > div > div > div > div > p {
     padding: 20px 10px;
     border-radius: 4px;
   }
-
+  body > nav > div > div.row-centered.nav-bar-buttons-container {
+    padding-bottom: 0px;
+  }
   .nav-bar-buttons-container > .nav-links-container > a {
     display: block;
     width: 100%;
@@ -902,6 +935,16 @@ body > section.client > div > div > div > div > div > p {
     > section.section-bg-reverse.chat-section.content-container
     > div.chat-container.d-flex {
     align-items: center;
+  }
+
+  body
+    > section.section-bg-reverse.chat-section.content-container
+    > div.chat-container.d-flex
+    > div
+    > div
+    > div
+    > img {
+    width: auto;
   }
 
   .section-row-4-cols h5 {
