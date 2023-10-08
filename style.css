@@ -489,6 +489,12 @@ div.inline {
 body > section.section-bg-reverse.chat-section.content-container {
   margin-bottom: 150px;
 }
+body
+  > section.section-bg-reverse.chat-section.content-container
+  > div.chat-container.d-flex {
+  margin-left: 8%;
+  margin-right: 2%;
+}
 
 #strategies {
   margin-top: 150px;
@@ -859,6 +865,16 @@ body > section.client {
   }
 }
 
+@media screen and (max-width: 1080px) {
+  #strategies > div.section-3-row > div.section-row-3-cols-item-3 {
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width: 967px) {
+  #last-price {
+    margin-top: 2%;
+  }
+}
 @media screen and (max-width: 950px) {
   .menu-icon-resp {
     display: flex;
