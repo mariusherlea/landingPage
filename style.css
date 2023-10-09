@@ -376,6 +376,7 @@ body > section:nth-child(6) {
 .chat-section .chat-column .message {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .chat-section .chat-column .message .image:first-child,
@@ -488,12 +489,6 @@ div.inline {
 
 body > section.section-bg-reverse.chat-section.content-container {
   margin-bottom: 150px;
-}
-body
-  > section.section-bg-reverse.chat-section.content-container
-  > div.chat-container.d-flex {
-  margin-left: 8%;
-  margin-right: 2%;
 }
 
 #strategies {
@@ -942,12 +937,18 @@ body > section.client {
   .chat-section .chat-container {
     flex-direction: column;
   }
-
+  body
+    > section.section-bg-reverse.chat-section.content-container
+    > div.chat-container.d-flex
+    > div {
+    width: calc(100% - 100px);
+  }
   body
     > section.section-bg-reverse.chat-section.content-container
     > div.chat-container.d-flex
     > div
     > div {
+    margin: 0 auto;
     padding-top: 16px;
     padding-bottom: 16px;
   }
@@ -971,6 +972,7 @@ body > section.client {
   .section-row-4-cols h5 {
     margin-top: 24px;
   }
+
   #last-price {
     margin-top: 50px;
   }
@@ -980,6 +982,7 @@ body > section.client {
   body > section.client > div > div {
     flex-wrap: wrap;
   }
+
   #join {
     width: 90%;
   }
