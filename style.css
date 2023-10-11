@@ -9,6 +9,16 @@ body {
   margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
 body > section .nav {
   justify-content: center;
   align-items: center;
@@ -149,8 +159,6 @@ body > section:last-child {
   font-style: normal;
   font-weight: 700;
   line-height: 60px;
-  margin-bottom: 0px;
-  padding-bottom: 18px;
 }
 
 #section-1 {
@@ -160,25 +168,155 @@ body > section:last-child {
 #section-1 .main-header {
   padding-bottom: 18px;
 }
-
-.content-left-col {
-  margin-right: 3%;
+#section-1 > div.content-left-col.section-2-col-item {
+  margin-right: 2.8%;
+}
+#management > div.content-left-col.section-2-col-item {
+  margin-right: 7%;
 }
 
-.content-right-col {
-  margin-left: 3%;
+#management > div.content-left-col.section-2-col-item > h6 {
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
+#management > div.content-left-col.section-2-col-item > h2 {
+  padding-bottom: 0px;
+  margin-bottom: 4.2%;
+}
+#management > div.content-left-col.section-2-col-item > p:nth-child(3) {
+  margin-bottom: 5.5%;
+}
+
+#management > div.content-left-col.section-2-col-item > h6:nth-child(4) {
+  margin-bottom: 2.2%;
+}
+
+#management > div.content-left-col.section-2-col-item > p:nth-child(5) {
+  margin-bottom: 4.5%;
+}
+
+#management > div.content-left-col.section-2-col-item > h6:nth-child(6) {
+  margin-bottom: 2.2%;
+}
+
+#management > div.content-left-col.section-2-col-item > p:nth-child(7) {
+  margin-bottom: 0px;
+}
 #customer-support > .content-left-col {
   margin-right: 0px;
-  margin-left: 3%;
+  margin-left: 8%;
 }
 
 #customer-support > .content-right-col {
   margin-left: 0px;
-  margin-right: 3%;
 }
 
+#customer-support > div.content-left-col.section-2-col-item > h2 {
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 4.2%;
+}
+
+#customer-support > div.content-left-col.section-2-col-item > p {
+  margin-bottom: 5.6%;
+}
+#customer-support > div.content-left-col.section-2-col-item > div > div {
+  margin-bottom: 5.6%;
+}
+
+#colaborative > div.content-left-col.section-2-col-item {
+  margin-right: 7%;
+}
+
+#colaborative > div.content-left-col.section-2-col-item > h2 {
+  margin-bottom: 4.2%;
+}
+
+#colaborative > div.content-left-col.section-2-col-item > p:nth-child(3) {
+  margin-bottom: 5.5%;
+}
+
+#colaborative > div.content-left-col.section-2-col-item > h6:nth-child(4) {
+  margin-bottom: 2.2%;
+}
+#colaborative > div.content-left-col.section-2-col-item > p:nth-child(5) {
+  margin-bottom: 4.5%;
+}
+
+#colaborative > div.content-left-col.section-2-col-item > h6:nth-child(6) {
+  margin-bottom: 2.2%;
+}
+
+.chat-section .chat-container {
+  justify-content: space-between;
+}
+
+.chat-section .chat-container .chat-column {
+  width: calc(50% - 80px);
+}
+
+.chat-section .chat-column .message {
+  display: flex;
+  align-items: center;
+}
+
+.chat-section .chat-column .message .image:first-child,
+.chat-section .chat-column .message span:first-child {
+  margin-right: 16px;
+}
+
+.chat-section .chat-column .message .image {
+  width: 98px;
+}
+
+.chat-section .chat-column .message .image img {
+  width: 100%;
+}
+
+.chat-section .chat-column .message span {
+  border-radius: 26.5px;
+  background: #fff;
+  box-shadow: 0px 2px 15px 0px rgba(23, 58, 86, 0.1);
+  padding: 14px 24px;
+  position: relative;
+}
+
+.chat-section .chat-column .message span::before {
+  position: absolute;
+  content: "";
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: #fff;
+  left: 32px;
+  bottom: -8px;
+}
+
+.chat-section .chat-column .message span::after {
+  position: absolute;
+  content: "";
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #fff;
+  left: 21px;
+  bottom: -16px;
+  box-shadow: 0px 2px 15px 0px rgba(23, 58, 86, 0.1);
+}
+
+.chat-section .chat-column .message.span-first span::before {
+  left: unset;
+  right: 55px;
+}
+
+.chat-section .chat-column .message.span-first span::after {
+  left: unset;
+  right: 36px;
+}
 .content-left-col,
 .content-right-col {
   width: 50%;
@@ -191,7 +329,6 @@ body > section:last-child {
 .subtitle {
   margin-top: 0px;
   padding-top: 0px;
-  margin-bottom: 45px;
   color: #22343d;
   font-size: 18px;
   font-style: normal;
@@ -245,10 +382,11 @@ body > section.section-bg {
 .signUpNow {
   width: 175px;
   height: 53px;
+  margin-top: 60px;
 }
 
 body > section:nth-child(4) {
-  margin-bottom: 186px;
+  margin-bottom: 13.6%;
 }
 
 .section-bg-reverse {
@@ -257,15 +395,46 @@ body > section:nth-child(4) {
   background-repeat: no-repeat;
   background-position: bottom;
   overflow: visible;
+}
+body > section.chat-section > div {
   padding-top: 52px;
 }
 
-.section-3-row > h2 {
-  font-weight: 700px;
-  font-size: 32px;
-  line-height: 48px;
+body > section.chat-section > div > div:nth-child(1) {
   text-align: center;
-  margin: 20px;
+}
+
+body > section.chat-section > div > div:nth-child(1) > h2 {
+  color: #22343d;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1.4%;
+}
+
+body > section.chat-section > div > div:nth-child(1) > p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 2.6%;
+}
+
+.section-3-row > h2 {
+  color: #22343d;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 43%;
+  margin-bottom: 57px;
 }
 
 .section-3-row > p {
@@ -299,7 +468,7 @@ body > section:nth-child(4) {
 .section-row-4-cols {
   display: grid;
   grid-template-areas: "grid-col-1 grid-col-2 grid-col-3 grid-col-4";
-  gap: 10px;
+  gap: 46px;
 }
 
 .section-row-4-cols-item-1 {
@@ -322,7 +491,7 @@ body > section:nth-child(4) {
   font-size: 20px;
   font-weight: 600;
   line-height: 33px;
-  margin-top: 30px;
+  margin-top: 8%;
 }
 
 .section-row-4-cols p {
@@ -330,14 +499,13 @@ body > section:nth-child(4) {
   line-height: 26px;
 }
 
+body > section.section-bg > div > div > div > p {
+  margin-top: 13px;
+}
+
 .section-2-icon {
   height: 50px;
   width: 50px;
-}
-
-.section-row-4-cols div {
-  margin-top: 60px;
-  margin-bottom: 30px;
 }
 
 .section-2-col .button-primary {
@@ -350,12 +518,13 @@ body > section:nth-child(4) {
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  margin: 30px 0 4px 0;
+  margin-top: 0px;
+  margin-bottom: 1.8%;
 }
 .check-box-icon {
   height: 35px;
   width: 35px;
-  margin-right: 30px;
+  margin-right: 5.6%;
 }
 
 .avatar-icon {
@@ -432,7 +601,13 @@ body > section:nth-child(6) {
   left: unset;
   right: 36px;
 }
-
+body
+  > section.chat-section
+  > div
+  > div.content-container.chat-container.d-flex {
+  margin-left: auto;
+  margin-right: auto;
+}
 body
   > section.section-bg-reverse.chat-section.content-container
   > div:nth-child(3) {
@@ -878,7 +1053,7 @@ body > section.client {
   .nav-bar-wrapper > .nav-bar-buttons-container {
     position: absolute;
     width: 100%;
-    top: 80px;
+    top: 41px;
     left: 0;
     right: 0;
     flex-direction: column;
@@ -921,7 +1096,11 @@ body > section.client {
     margin-top: 10px;
     margin-bottom: 15px;
   }
-
+  body > section.chat-section > div > div:nth-child(1) > p {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .chat-box-container {
     display: flex;
     align-items: center;
@@ -937,6 +1116,20 @@ body > section.client {
   .chat-section .chat-container {
     flex-direction: column;
   }
+
+  .chat-section .chat-container .chat-column {
+    width: 100%;
+  }
+
+  .chat-section .chat-column:nth-child(2) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .chat-section .chat-column .span-first {
+    justify-content: center;
+  }
+
   body
     > section.section-bg-reverse.chat-section.content-container
     > div.chat-container.d-flex
@@ -1063,13 +1256,15 @@ body > section.client {
     grid-template-areas: "grid-col-1" "grid-col-2" "grid-col-3" "grid-col-4";
     gap: 0;
   }
-
+  body > section.section-bg > div > div > div {
+    margin-bottom: 27px;
+  }
   .section-row-4-cols div {
-    margin: 0;
+    margin: 27px;
   }
 
   #customer-support {
-    margin-bottom: 100px;
+    margin-bottom: 13.5%px;
   }
 
   .section-row-4-cols div {
