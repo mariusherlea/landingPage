@@ -85,6 +85,9 @@ body > section:last-child {
   padding-top: 43px;
   padding-bottom: 114px;
 }
+#section-1 > div.content-left-col.section-2-col-item > div.row.row-centered {
+  margin-top: 5%;
+}
 
 .button-primary {
   text-align: center;
@@ -316,6 +319,12 @@ body > section:last-child {
 .chat-section .chat-column .message.span-first span::after {
   left: unset;
   right: 36px;
+}
+
+body > section.chat-section > div > div:nth-child(3) > button {
+  width: 216px;
+  height: 53px;
+  margin-top: 48px;
 }
 .content-left-col,
 .content-right-col {
@@ -612,6 +621,10 @@ body
   > section.section-bg-reverse.chat-section.content-container
   > div:nth-child(3) {
   margin-top: 48px;
+}
+
+body > section.chat-section > div > div:nth-child(3) {
+  justify-content: center;
 }
 
 .no-bg {
@@ -1022,29 +1035,6 @@ body > section.client {
   margin-top: 23px;
 }
 
-@media screen and (max-width: 1150px) {
-  #strategies > div {
-    justify-content: center;
-  }
-
-  #strategies > div > div.section-row-3-cols-item-1 {
-    margin-right: 15px;
-  }
-  #strategies > div > div.section-row-3-cols-item-2 {
-    margin-right: 15px;
-  }
-}
-
-@media screen and (max-width: 1080px) {
-  #strategies > div.section-3-row > div.section-row-3-cols-item-3 {
-    margin-top: 2%;
-  }
-}
-@media screen and (max-width: 967px) {
-  #last-price {
-    margin-top: 2%;
-  }
-}
 @media screen and (max-width: 950px) {
   .menu-icon-resp {
     display: flex;
@@ -1209,6 +1199,24 @@ body > section.client {
 }
 
 @media screen and (max-width: 750px) {
+  #section-1 > div.content-left-col.section-2-col-item {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #management > div.content-left-col.section-2-col-item {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #customer-support > div.content-left-col.section-2-col-item {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #colaborative > div.content-left-col.section-2-col-item {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
   #join {
     flex-direction: column;
   }
