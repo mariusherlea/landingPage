@@ -680,8 +680,29 @@ body > section.section-bg-reverse.chat-section.content-container {
 }
 
 #strategies {
-  margin-top: 150px;
-  margin-bottom: 230px;
+  margin-top: 15%;
+  margin-bottom: 10%;
+}
+#strategies > div:nth-child(1) > h2 {
+  margin-bottom: 0.7%;
+}
+
+#strategies > div:nth-child(1) > p {
+  margin-bottom: 2.7%;
+}
+
+#strategies > div.section-3-row > div > p {
+  margin-top: 7%;
+  margin-left: 7%;
+  margin-bottom: 4%;
+}
+
+#strategies > div.section-3-row > div > h5 {
+  margin-left: 7%;
+}
+
+#strategies > div.section-3-row > div.section-row-3-cols-item-2 > h5 {
+  color: #02897a;
 }
 
 #strategies .section-3-row {
@@ -691,18 +712,12 @@ body > section.section-bg-reverse.chat-section.content-container {
 #strategies > div {
   justify-content: center;
 }
-#strategies > div:first-child {
-  margin-left: 42px;
-}
+
 #strategies > div > div {
   width: 348px;
   height: 359px;
   border: 1px solid #dedede;
   border-radius: 8px;
-}
-#strategies > div > div > p {
-  margin-top: 24px;
-  margin-left: 24px;
 }
 
 #strategies > div > div.section-row-3-cols-item-1 {
@@ -733,12 +748,36 @@ body > section.section-bg-reverse.chat-section.content-container {
   font-style: normal;
   font-weight: 700;
   line-height: 40px;
-  margin-top: 12px;
-  margin-left: 24px;
+}
+
+#strategies > div.row.row-centered {
+  margin-top: 10%;
 }
 
 #price-table {
-  margin-bottom: 150px;
+  margin-bottom: 10%;
+}
+#price-table > div:nth-child(1) > h2 {
+  margin-bottom: 0.7%;
+}
+
+#last-price > p {
+  margin-bottom: 5%;
+}
+
+#price-table > div:nth-child(1) > p {
+  margin-bottom: 4%;
+}
+
+body > section.client > div > h2 {
+  margin-bottom: 0.6%;
+}
+body > section.client > div > p {
+  margin-bottom: 4.2%;
+}
+
+body > section.client > div > div > div > div {
+  margin-top: 10%;
 }
 
 #join > .content-container img {
@@ -809,8 +848,8 @@ body > section.section-bg-reverse.chat-section.content-container {
 }
 
 .price-categories {
-  margin-top: 24px;
-  margin-bottom: 8px;
+  margin-top: 8%;
+  margin-bottom: 1%;
 }
 .price-description {
   margin-top: 0px;
@@ -1028,6 +1067,10 @@ body > section.client {
 
 #footer > div > div.section-row-4-cols-item-1 > div:nth-child(2) {
   gap: 16px;
+}
+
+#footer > div > div > a {
+  color: black;
 }
 
 #madeBy {
