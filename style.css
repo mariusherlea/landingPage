@@ -830,6 +830,13 @@ body > section.client > div > div > div > div {
   height: 331px;
 }
 
+#join > div.content-left-col.section-2-col-item {
+  justify-content: space-between;
+  margin-top: 4%;
+}
+#join > div.content-right-col.section-2-col-item {
+  align-items: flex-end;
+}
 .center-title {
   text-align: center;
 }
