@@ -775,7 +775,9 @@ body > section.client > div > h2 {
 body > section.client > div > p {
   margin-bottom: 4.2%;
 }
-
+#strategies > div:nth-child(1) {
+  margin-left: 5%;
+}
 body > section.client > div > div > div > div {
   margin-top: 10%;
 }
@@ -1080,6 +1082,24 @@ body > section.client {
   color: black;
 }
 
+#footer > div > div.section-row-4-cols-item-1 > div {
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+#footer > div > div > h5 {
+  margin-bottom: 7%;
+}
+#footer > div > div > a > p {
+  margin-bottom: 5%;
+}
+
+#footer > div > div.section-row-4-cols-item-4 > div > input {
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+  background: #fff;
+  padding-left: 7px;
+}
+
 #madeBy {
   text-align: center;
   margin-top: 23px;
@@ -1254,18 +1274,119 @@ body > section.client {
     margin-right: 0px;
   }
 
+  #management > div.content-right-col.section-2-col-item {
+    margin-bottom: 12%;
+  }
+
   #management > div.content-left-col.section-2-col-item {
-    margin-left: 0px;
+    text-align: left;
     margin-right: 0px;
+  }
+
+  #management > div.content-left-col.section-2-col-item > h6 {
+    margin-left: 7%;
+    margin-right: auto;
+  }
+  #management > div.content-left-col.section-2-col-item > h2 {
+    margin-left: 7%;
+    margin-right: auto;
+  }
+
+  #management > div.content-left-col.section-2-col-item > p {
+    margin-left: 7%;
+  }
+
+  #customer-support > div.content-right-col.section-2-col-item {
+    margin-bottom: 12%;
   }
 
   #customer-support > div.content-left-col.section-2-col-item {
     margin-left: 0px;
     margin-right: 0px;
   }
+
+  #customer-support > div.content-left-col.section-2-col-item > h6 {
+    margin-left: 7%;
+    margin-right: auto;
+  }
+  #customer-support > div.content-left-col.section-2-col-item > h2 {
+    margin-left: 7%;
+    margin-right: auto;
+  }
+
+  #customer-support > div.content-left-col.section-2-col-item > p {
+    margin-left: 7%;
+    text-align: left;
+  }
   #colaborative > div.content-left-col.section-2-col-item {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  #colaborative > div.content-right-col.section-2-col-item {
+    margin-bottom: 12%;
+  }
+
+  #colaborative > div.content-left-col.section-2-col-item {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #colaborative > div.content-left-col.section-2-col-item > h6 {
+    margin-left: 7%;
+    margin-right: auto;
+  }
+  #colaborative > div.content-left-col.section-2-col-item > h2 {
+    margin-left: 7%;
+    margin-right: auto;
+  }
+
+  #colaborative > div.content-left-col.section-2-col-item > p {
+    margin-left: 7%;
+    text-align: left;
+  }
+
+  #strategies > div > p {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    width: 90%;
+  }
+
+  #strategies > div:nth-child(1) > h2 {
+    width: 100%;
+    text-align: center;
+    margin-left: 0%;
+  }
+
+  #strategies > div.section-3-row > div {
+    margin-right: 0px;
+  }
+
+  #strategies > div.section-3-row > div > p {
+    margin-left: 0px;
+  }
+
+  #strategies > div.section-3-row > div > h5 {
+    margin-left: 0px;
+  }
+
+  #strategies > div.row.row-centered > img {
+    display: none;
+  }
+
+  body > section.client > div > h2 {
+    width: 100%;
+  }
+  body > section.client > div > p {
+    width: 70%;
+  }
+  body > section.section-bg > div > div > div > p {
+    text-align: center;
+    width: 50%;
+  }
+  body > section.section-bg > div > h2 {
+    width: 70%;
   }
   #join {
     flex-direction: column;
@@ -1323,6 +1444,12 @@ body > section.client {
 
   #customer-support {
     margin-bottom: 13.5%px;
+  }
+  #customer-support > div.content-left-col.section-2-col-item > div {
+    margin-left: 5%;
+  }
+  #customer-support > div.content-left-col.section-2-col-item > div > div > p {
+    text-align: left;
   }
 
   .section-row-4-cols div {
@@ -1382,5 +1509,21 @@ body > section.client {
   }
   #footer > div > div.section-row-4-cols-item-1 > div:nth-child(2) {
     flex-direction: row;
+  }
+
+  #footer > div > div.section-row-4-cols-item-1 > div:nth-child(1) {
+    flex-direction: row;
+  }
+
+  #footer > div > div.section-row-4-cols-item-4 > h5 {
+    text-align: center;
+  }
+
+  #footer > div > div.section-row-4-cols-item-4 > div {
+    margin-top: 10%;
+  }
+
+  #footer > div > div.section-row-4-cols-item-4 > div > button {
+    margin-bottom: 15%;
   }
 }
