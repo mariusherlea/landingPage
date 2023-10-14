@@ -1273,9 +1273,17 @@ body > section.client {
     margin-left: 0px;
     margin-right: 0px;
   }
+  #section-1 > div.content-right-col.section-2-col-item {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   #management > div.content-right-col.section-2-col-item {
     margin-bottom: 12%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #management > div.content-left-col.section-2-col-item {
@@ -1294,6 +1302,12 @@ body > section.client {
 
   #management > div.content-left-col.section-2-col-item > p {
     margin-left: 7%;
+  }
+
+  #customer-support > div.content-right-col.section-2-col-item {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #customer-support > div.content-right-col.section-2-col-item {
@@ -1318,6 +1332,13 @@ body > section.client {
     margin-left: 7%;
     text-align: left;
   }
+
+  #colaborative > div.content-right-col.section-2-col-item {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   #colaborative > div.content-left-col.section-2-col-item {
     margin-left: 0px;
     margin-right: 0px;
