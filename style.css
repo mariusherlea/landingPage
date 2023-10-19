@@ -453,9 +453,9 @@ body > section.section-bg {
 }
 .section-bg {
   background-image: url("./img/shadow-bg.svg");
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
+  background-size: 100% auto;
   overflow: visible;
   padding-bottom: 90px;
 }
@@ -474,8 +474,22 @@ body > section:nth-child(4) {
   background-image: url("./img/shadow-bg-reversed.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-size: 100% auto;
   overflow: visible;
+}
+
+body > section.chat-section.section-bg-reverse > div:nth-child(1) {
+  text-align: center;
+}
+body
+  > section.chat-section.section-bg-reverse
+  > div.content-container.chat-container.d-flex {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body > section.chat-section.section-bg-reverse > div:nth-child(3) {
+  justify-content: center;
 }
 body > section.chat-section > div {
   padding-top: 52px;
