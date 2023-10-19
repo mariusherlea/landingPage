@@ -1567,7 +1567,7 @@ body > section.client {
   }
 
   #customer-support {
-    margin-bottom: 13.5%px;
+    margin-bottom: 13.5%;
   }
   #customer-support > div.content-left-col.section-2-col-item > div {
     margin-left: 5%;
@@ -1641,6 +1641,7 @@ body > section.client {
 
   #footer > div > div.section-row-4-cols-item-4 > h5 {
     text-align: center;
+    margin-bottom: 0px;
   }
 
   #footer > div > div.section-row-4-cols-item-4 > div {
