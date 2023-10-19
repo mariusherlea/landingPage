@@ -392,7 +392,9 @@ body
   left: unset;
   right: 36px;
 }
-
+body > section.chat-section.section-bg-reverse > div:nth-child(3) > button {
+  width: 15%;
+}
 body > section.chat-section > div > div:nth-child(3) > button {
   width: 216px;
   height: 53px;
@@ -491,6 +493,28 @@ body
 body > section.chat-section.section-bg-reverse > div:nth-child(3) {
   justify-content: center;
 }
+
+body > section.chat-section.section-bg-reverse > div:nth-child(1) > h2 {
+  color: #22343d;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1%;
+}
+
+body > section.chat-section.section-bg-reverse > div:nth-child(1) > p {
+  width: 37%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+}
+
 body > section.chat-section > div {
   padding-top: 52px;
 }
@@ -1271,6 +1295,13 @@ body > section.client {
     justify-content: center;
   }
 
+  body > section.chat-section.section-bg-reverse > div:nth-child(3) > button {
+    width: 25%;
+  }
+
+  body > section.chat-section.section-bg-reverse > div:nth-child(1) > p {
+    width: 70%;
+  }
   body
     > section.section-bg-reverse.chat-section.content-container
     > div.chat-container.d-flex
