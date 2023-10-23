@@ -393,7 +393,7 @@ body
   right: 36px;
 }
 body > section.chat-section.section-bg-reverse > div:nth-child(3) > button {
-  width: 15%;
+  width: 170px;
 }
 body > section.chat-section > div > div:nth-child(3) > button {
   width: 216px;
@@ -1296,7 +1296,7 @@ body > section.client {
   }
 
   body > section.chat-section.section-bg-reverse > div:nth-child(3) > button {
-    width: 25%;
+    width: 30%;
   }
 
   body > section.chat-section.section-bg-reverse > div:nth-child(1) > p {
